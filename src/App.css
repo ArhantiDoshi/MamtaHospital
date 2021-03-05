@@ -1,38 +1,491 @@
-.App {
-  text-align: center;
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer{
+    background-color: #D1C4E9;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+.navbar
+{
+	padding: 0;
+	  
+}
+.navbar-light {
+    background-color: #800000;
+	
+}
+.font-color
+{
+	color:red;
+	 margin:0;
+    padding: 0;
+	font-size:28px;
+}
+.media-margin
+{
+	margin: 0;
+    padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+
+.hrstyle
+{
+	margin:0;
+    padding:0;
+    color:'#000000';
+    background: '#4863A0';
+    height:4;
+    border : '#4863A0';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li,
+ul {
+    list-style: none
 }
+.comcontect {
+    padding: 34.5px 0;
+    font-size: 14px;
+    float: right
+}
+
+    .comcontect ul li {
+        float: left;
+        margin-right: 25px;
+        font-weight: 500
+    }
+
+        .comcontect ul li:last-child {
+            margin-right: 0
+        }
+
+.comcontect-img {
+    color: #fba153;
+    margin-bottom: 4px
+}
+
+    .comcontect-img img {
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle
+    }
+
+.comcontect-no {
+    color: #333
+}
+
+.emergency {
+    color: #ed1f27;
+    margin-bottom: 0
+}
+
+    .emergency img {
+        margin-right: 0
+    }
+
+.emergency-no {
+    background: #ed1f27;
+    padding: 3px 5px;
+    color: #fff;
+    border-radius: 4px
+}
+.carousel {
+    padding: 0;
+	margin: 0;
+}
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
+
+
+
+
+body {
+    background: #fff;
+    font-size: 16px;
+    color: #000;
+    line-height: 100%;
+    font-style: normal;
+    font-weight: 400;
+    overflow-x: hidden
+}
+
+h2,
+h4 {
+    font-weight: 700
+}
+
+h1 {
+    font-size: 50px
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase
+}
+
+    h2 span {
+        font-size: 14px;
+        margin-bottom: 5px
+    }
+
+    h2 p {
+        font-size: 16px;
+        text-transform: capitalize
+    }
+
+
+.header,
+.img-responsive {
+    width: 100%
+}
+
+
+.btn {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    transition: .5s
+}
+
+.btn-success {
+    width: 100%;
+    padding: 13px 6px;
+    background-color: transparent;
+    font-size: 14px;
+    border: 2px solid #008f4c;
+    border-radius: 50px;
+    color: #008f4c
+}
+
+    .btn-success:hover {
+        color: #fff;
+        background-color: #fba153;
+        border-color: #fba153
+    }
+
+.btn-primary {
+    color: #800000;
+    background-color: transparent;
+    border: 2px solid #333;
+    padding: 10px 25px;
+    font-size: 16px;
+    
+}
+
+    .btn-primary.focus,
+    .btn-primary:active:focus,
+    .btn-primary:active:hover,
+    .btn-primary:focus,
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #800000;
+        border-color: #fba153;
+        outline: transparent
+    }
+
+.margin-bottom {
+    margin-bottom: 30px
+}
+
+.header {
+    background: #fff;
+    border-top: 5px solid #800000
+}
+
+.logo {
+    padding: 30px 0
+}
+
+    .logo svg {
+        height: 60px
+    }
+
+.comcontect {
+    padding: 34.5px 0;
+    font-size: 14px;
+    float: right
+}
+
+    .comcontect ul li {
+        float: left;
+        margin-right: 25px;
+        font-weight: 500
+    }
+
+        .comcontect ul li:last-child {
+            margin-right: 0
+        }
+
+.comcontect-img {
+    color: #fba153;
+    margin-bottom: 4px
+}
+
+    .comcontect-img img {
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle
+    }
+
+.comcontect-no {
+    color: #333
+}
+
+.emergency {
+    color: #ed1f27;
+    margin-bottom: 0
+}
+
+    .emergency img {
+        margin-right: 0
+    }
+
+.emergency-no {
+    background: #ed1f27;
+    padding: 3px 5px;
+    color: #fff;
+    border-radius: 4px
+}
+
+
+
+.btn-primary
+{
+	background:#ffffff;
+}
+
+
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid #fff
+}
+
+
+
+
+
+.footer {
+    
+    background-repeat: no-repeat;
+    background-color: #ffe5ce;
+    background-size: cover
+}
+
+    .footer.section {
+        padding: 50px 0
+    }
+
+
+
+    .comcontect {
+        font-size: 13px
+    }
+
+        .comcontect ul li {
+            margin-right: 16px
+        }
+
+    .specialities-box-title {
+        font-size: 15px
+    }
+
+    .specialities-box ul li {
+        padding: 14px
+    }
+
+    .news-head-titl {
+        font-weight: 500;
+        font-size: 18px
+    }
+
+    .panel.doc-profile .doc-details {
+        padding: 20px 25px
+    }
+    .navMenu {
+        text-align: left;
+        border: none;
+        background-color: #eee
+    }
+
+   .footercolor
+   {color:#800000;
+   }
+
+  
+
+
+    .patientview {
+        padding: 30px 0 20px;
+		border: 1px solid #800000;
+		margin-bottom: 6;
+		padding-bottom:5;
+		padding-top:0
+    }
+	
+	.spcialitycardborder
+	{
+		color:#800000;
+	border-bottom:1px dashed #800000;
+}
+	
+	.profilebtn
+	{
+		border: 1px solid #800000;
+	}
+
+    table {
+        width: 100% !important
+    }
+.cardi-img,
+.infra-box {
+    margin-bottom: 30px
+}
+
+.cardi-box .side-title {
+    background: #ebebeb;
+    padding: 10px 20px;
+    border-bottom: 1px solid #fff
+}
+
+.cardi-img .side-title {
+    background: #d3ebe1
+}
+
+.infra-desc {
+    background: white;
+    border-left: 3px solid #800000;
+	 border-right: 3px solid #800000;
+	  border-bottom: 3px solid #800000;
+     
+}
+
+.cardi-desc {
+    background: #e8f6f0;
+    border-left: 5px solid #800000
+}
+
+    .cardi-desc ul li,
+    .infra-desc ul li {
+        padding: 8px 15px;
+        line-height: 150%;
+        font-size: 16px;
+        position: relative;
+        border-bottom: 1px dashed #800000;
+        
+    }
+    
+    .services{
+        padding: 8px 8px;
+        line-height: 90%;
+        font:bold #800000;
+        font-size: 16px #800000;
+        border-bottom: 1px dashed #800000;
+        
+        position: relative;
+        border:1px #800000;
+    
+    }
+
+    .cardi-desc ul li {
+        border-bottom: 1px dashed #bdd0c8
+    }
+
+        .cardi-desc ul li:last-child,
+        .infra-desc ul li:last-child {
+            border-bottom: 0
+        }
+		.title{
+			color:#800000;
+		}
+
+.navdropdown
+{
+color:#800000;
+		border:1px solid #800000;	
+padding-right:2px;
+margin-right:4px;
+margin-left:3px;
+}
+.main-navigation .page_item_has_children>a:first-child:after, .main-navigation .menu-item-has-children>a:first-child:after {
+    color: #800000 !important;
+}
+
+@media only screen and (min-width: 800px){
+    .main-navigation .page_item_has_children > a:first-child:after, .main-navigation .menu-item-has-children > a:first-child:after {
+        color: #800000 !important;
+    }
+}
+.navdropborder
+{
+	color:#800000;
+	border-bottom:1px dashed #800000;
+	border-left:1px solid #800000;
+	
+	margin-bottom:1;
+	position:auto;
+	
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(128,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(120, 0 0);
+} 
+
+    
+	#slider{
+		align-self:center;
+	}
+	.carousel-column{
+        border: 1px solid maroon;
+   max-width: auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+      }
+
+	#slide1	{
+		background: url('facilities.png') centre no-repeat;
+		}
+	
+	#slide2	{
+		background: url('facilities.png') centre no-repeat;
+		}
+		
+		#slide3	{
+		background: url('facilities.png') centre no-repeat;
+		}
+		.carousel-caption{
+		font-size:18px;
+		}
