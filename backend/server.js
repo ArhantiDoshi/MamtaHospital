@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const path=require('path');
+
 
 require('dotenv').config();
 
@@ -35,10 +35,7 @@ app.use('/exercises', exercisesRouter);
 app.use('/users', usersRouter);
 app.use('/bookapp',appointmentRouter);
 
-if(process.env.NODE_ENV==='production'){
-  app.use(express.static('build'));
-  app.get('*',(req,res)=>{res.sendFile(path.join(-dirname,'build','index,html'));});
-}
+
 
 
 
