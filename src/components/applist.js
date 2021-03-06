@@ -29,7 +29,7 @@ export default class AppointmentList extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/bookapp/')
+    axios.get('https://git.heroku.com/mamta-hospital.git/bookapp/')
       .then(response => {
         this.setState({ bookapp: response.data })
       })
