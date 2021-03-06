@@ -64,7 +64,7 @@ return(
                       {menu}
                   </div>
                  
-                    <div className="row" >
+                    <div className="row" id="detail">
                       {this.renderService(this.state.selectedService)}
                     </div>
                   </div>
