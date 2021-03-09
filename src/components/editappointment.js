@@ -28,7 +28,7 @@ export default class EditApp extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/bookapp/'+this.props.match.params.id)
+    axios.get('https://mamta-hospital.herokuapp.com/bookapp/'+this.props.match.params.id)
       .then(response => {
         this.setState({
           firstname: response.data.firstname,
@@ -43,7 +43,7 @@ export default class EditApp extends Component {
         console.log(error);
       })
 
-    axios.get('http://localhost:5000/bookapp/')
+    axios.get('https://mamta-hospital.herokuapp.com/bookapp/')
       .then(response => {
         if (response.data.length > 0) {
           this.setState({
@@ -103,7 +103,7 @@ export default class EditApp extends Component {
 
     console.log(appointment);
 
-    axios.post('http://localhost:5000/bookapp/update/' + this.props.match.params.id, appointment)
+    axios.post('https://mamta-hospital.herokuapp.com/bookapp/update/' + this.props.match.params.id, appointment)
       .then(res => console.log(res.data))
       .catch((error) => {
         console.log(error);
