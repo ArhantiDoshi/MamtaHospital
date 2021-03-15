@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <script id="convertful-api" src="https://app.convertful.com/Convertful.js?owner=31908" async></script>
   </React.StrictMode>,
   document.getElementById('root')
 );

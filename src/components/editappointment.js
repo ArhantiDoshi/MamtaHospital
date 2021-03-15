@@ -103,7 +103,7 @@ export default class EditApp extends Component {
 
     console.log(appointment);
 
-    axios.post('https://mamta-hospital.herokuapp.com/bookapp/update/' + this.props.match.params.id, appointment)
+    axios.post('http://localhost:5000/bookapp/update/' + this.props.match.params.id, appointment)
       .then(res => console.log(res.data))
       .catch((error) => {
         console.log(error);
