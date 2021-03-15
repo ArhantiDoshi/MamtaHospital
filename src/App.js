@@ -8,7 +8,7 @@ class App extends Component {
     return (
      <BrowserRouter>
       <div className="App">
-      <script id="convertful-api" src="https://app.convertful.com/Convertful.js?owner=31908" async></script>
+        
         <Main />
       </div>
     </BrowserRouter>
