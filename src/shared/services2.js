@@ -38,8 +38,8 @@ export const SERVICES2 =
                         description:'Your choices as a parent begin before your child is even born. From what to feed them to how to discipline, parenting seems to be one choice after another. The choices you make regarding your child’s health will affect them throughout their life. These are decisions best made with plenty of thought and information. Here are some general tips on making healthy parenting choices.'   },
                          {
                            id: 5,
-                           name:'HealthCare',
-                           image: 'assets/images/obasity.png',
+                           name:'SkinCare',
+                           image: 'assets/images/skincare.png',
                            image2: 'assets/images/facilities.png',
                           
                            description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
