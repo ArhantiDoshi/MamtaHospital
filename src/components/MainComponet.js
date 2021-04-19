@@ -19,6 +19,7 @@ import AppointmentList from './applist';
 import Vision from './Vision';
 import HealthTips from './HealthTips';
 import Doctor from './Doctor';
+import ExercisesList from "./exercises-list.component";
 
 
 
@@ -45,11 +46,11 @@ class Main extends Component
          
 		   <Navigtn />
 		   <Switch>
-              <Route exat path='/home' component={HomePage} />
+              <Route exat path='/Home' exact component={HomePage} />
 			  <Route exact path='/contactus' component={Contact} />
 			  <Route exact path='/Doctor' component={Doctor} />
 			    <Route exact path='/aboutus' component={AboutUs} />
-				 
+				<Route path="/editex" component={ExercisesList} />
 				 <Route exact path='/CreateAppointment' component={CreateAppointment} />
 				 <Route path='/Twiloform' component={Twiloform} />
 				 <Route exact path='/Renderfclty' component={Renderfclty} />

@@ -69,7 +69,7 @@ export default class CreateAppointment extends Component {
 
     console.log(appointment);
 
-    axios.post('https://mamta-hospital.herokuapp.com/bookapp/add', appointment)
+    axios.post('https://localhost:5000/bookapp/add', appointment)
       .then(res => console.log(res.data))
       .catch((error) => {
         console.log(error);

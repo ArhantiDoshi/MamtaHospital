@@ -36,7 +36,8 @@ class Navigtn extends Component {
                              <NavDropdown  noCaret title={<span className="fa fa-info title">About Us</span>} className="navdropdown" id="nav-dropdown"  to='/AboutUs'>
                                         <NavLink to="Vision" className="navdropborder" >Vision and Mission</NavLink><br />
 										    <NavLink to="AboutUs" className="navdropborder"  >About MamtaHospital</NavLink> <br/>                            
-                        <NavLink to="Doctor" className="navdropborder">Doctor's Profile</NavLink><br />     
+                        <NavLink to="Doctor" className="navdropborder">Doctor's Profile</NavLink><br /> 
+                        <NavLink to="Appointment" className="navdropborder">editex</NavLink><br />
                         <NavLink to="Login" className="navdropborder">Admin Login</NavLink><br />     
                                         </NavDropdown>
 									    <NavDropdown  title={<span className="title">Specialities</span>}  id="nav-dropdown" className="navdropdown">
